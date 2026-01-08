@@ -1,0 +1,1 @@
+{ "name": "discord-copy-bot", "version": "1.0.0", "main": "index.js", "scripts": { "start": "node index.js" }, "dependencies": { "axios": "^1.13.2", "debug": "^4.4.3", "discord-api-types": "^0.38.32", "discord.js-selfbot-v13": "^3.7.1" } }
