@@ -21,509 +21,594 @@ const CONFIG = {
 };
 
 const CAPPERS = {
-    streaks: {
-        channel: '1437563146888810577',
-        webhook: 'https://discord.com/api/webhooks/1455928909861355582/TpENcorv0tc5qZYyPk6ywj9qDcmYI3PQtU9hL5hfW1FndkrPn0QkYOUkwhtcPNyEk1V0'
+    'nba-rundown': {
+        channel: '1298374101232124014',
+        webhook: 'https://discordapp.com/api/webhooks/1456687590764839053/UODSt825Uk8OP14Y4HY10MDyi-uT3cJewgdMoDDhXcbfoAA2VDUSCFbnSwFWYdYVlfiR'
     },
     
-    trackers: {
-        channel: '1438179850086125779',
-        webhook: 'https://discord.com/api/webhooks/1455928988802351208/voAyOAxJTkKqwZHqumcD0xozvXyvdHRt3YV3DgmnJ5B79yAmh-nBVSbmQoHeFcVcJ4KM'
+    'football-rundown': {
+        channel: '1278756716514639956',
+        webhook: 'https://discordapp.com/api/webhooks/1456687666601918595/jtSbGJPOkFo7epgfZJnr5c3JHlCA6iPP3n7DwevutNed1UBMERreDaF2w2KtnN6ZzEL4'
     },
     
-    'sport-tracker': {
-        channel: '1442149411277770894',
-        webhook: 'https://discord.com/api/webhooks/1455929133740855441/KeN6EmgYQVTLxD2QhWzodw8cfLIX4Nj2G55duFNgXpsGPGJTmDbThImH4cHGXGUEVWVm'
+    'mlb-rundown': {
+        channel: '1238189573369106473',
+        webhook: 'https://discordapp.com/api/webhooks/1456687736907104388/aVFm2hvR6s-wS_C2PDOavOxI4xKYkO2VioeRo8e3GULbr2zewhFUJ3CUxCVzsDvBQWsw'
     },
     
-    anon: {
-        channel: '1433220270923055144',
-        webhook: 'https://discord.com/api/webhooks/1455929324145217810/UtLBOzO2Gp0_Jon6ibiISdHkW6ptLJ4jbX7bcmwXt2wkP0_upL-ICgQYIapZQValY7j8'
+    'esports-rundown': {
+        channel: '1278880593060434000',
+        webhook: 'https://discordapp.com/api/webhooks/1456687808465998028/ZD7ZT6e31V70vpxiIWPKzsYIjp2gM0oA81cBFt-Hek6VJhg780vYr-okuqyAj21nHEV4'
     },
     
-    monumental: {
-        channel: '1433220272529342545',
-        webhook: 'https://discord.com/api/webhooks/1455929400750248133/UsDISfUQjsctas7B1_gL4HabxlxLZJxA2cCKdKzqXvyIaDlDM-EOIDCTTZa7E_6xV6wU'
+    'nhl-rundown': {
+        channel: '1291515464136261745',
+        webhook: 'https://discordapp.com/api/webhooks/1456687408794963988/mQkOI7X9CyeLwnTpVKt-0-EcB_CUYpcy5AbrLB2Wvq9UAPAcrEMjSTLHsujNFA2rfAwE'
     },
     
-    mrexclusive: {
-        channel: '1433220274383486996',
-        webhook: 'https://discord.com/api/webhooks/1455929472846139556/Nj61rYMKed5BKAOA2f6OcZYp55oDv4zNJmY6B6jDIXsNaXccyybuX9s2oCTIR1ai8NmD'
+    'prizepicks-ev': {
+        channel: '1294096333585649714',
+        webhook: 'https://discordapp.com/api/webhooks/1456688393600761989/ok_kzWecW3SthbdG3uyjWVTwJjRw2Vw6eln6WRxW6OQvRtGqW1Y59_Uj5QBSK-HouBg3'
     },
     
-    cesar: {
-        channel: '1433220275604029560',
-        webhook: 'https://discord.com/api/webhooks/1455929519847510106/tgl6E3xguyurEcZA23bQfjZ4gMYeFwD_deuifpj4VNLKzTFupHmVbj1NngszjfGWp048'
+    'underdog-ev': {
+        channel: '1294096358478843934',
+        webhook: 'https://discordapp.com/api/webhooks/1456688457345794131/LlSrtIbnT--hnXJ_0m-8kA1Lmvh8E5tHPHZwRUGEY9YAnwatPAkvQduIdiuk02SIJJTC'
     },
     
-    vicktuff: {
-        channel: '1433220276862193684',
-        webhook: 'https://discord.com/api/webhooks/1455929592110907395/dvBsviexYgnnqDETiPvjXJXNAwvw0kh5oAURF-yDJb7N7xXRqy9OxMVl6LSpq0mB2xXh'
+    'betr-ev': {
+        channel: '1294096383388680223',
+        webhook: 'https://discordapp.com/api/webhooks/1456688509019623510/zHRonITaUBXozxGdvBDkqdaj1oWH6L8VvopR4gv8TKzNuADlHZQHrl4qBE16_4f7-DTm'
     },
     
-    uatb: {
-        channel: '1433220278640447569',
-        webhook: 'https://discord.com/api/webhooks/1455929655814131732/QN1bwZBWHNq-c0xr2r-PIGFEfpObup4GCTAGCHbiI57maFrlzgOBWOUQGiA0rL269QXL'
+    'fliff-ev': {
+        channel: '1321580024574382100',
+        webhook: 'https://discordapp.com/api/webhooks/1456688575029575761/Nfh2obiHgtDX61edNHQxiXNo4aNZrIis04cXvkGzo6fe6tNe6IlhQaVd_COOthYs1COg'
     },
     
-    q9: {
-        channel: '1433220279684960336',
-        webhook: 'https://discord.com/api/webhooks/1455929701301489726/0bhaJ7T3V6dZ4wGipogj0YjWrULxJPd2GIEvLhKJxtrvjY0n7hbmE7x3Zmd8Rs-K85Zq'
+    'potds': {
+        channel: '1233479325798367414',
+        webhook: 'https://discord.com/api/webhooks/1456688649554100256/YoUtsJ2i6e8i8VT5pZHxRZdVVmhHToVj3zID-QAalLRDgYQOdUNsV5s7Mv6dZeDnpdbP'
     },
     
-    fern: {
-        channel: '1433220280729337957',
-        webhook: 'https://discord.com/api/webhooks/1455929752090312920/4oRaC6tENfJXBuEKuZ4WvfsvaGzYe0Wb-BZxO6TB2aD-sWjxuWkWtAJkB41O0mqRRJaR'
+    'nukes-etc': {
+        channel: '1310325142986948759',
+        webhook: 'https://discord.com/api/webhooks/1456688714175742147/7rTOY6n8tICFn13b1lT7fChvg-4d4bFfEUiQUWKDtvL--NMsFJlAwGn3OeidCE7xoh9l'
     },
     
-    ampm: {
-        channel: '1433220282201542790',
-        webhook: 'https://discord.com/api/webhooks/1455929809321332883/BXfdDzHzLYDDM3BYz36PegtPo039II4vo4azpAzhMIMXKXHJwy0A1cp5XcxrBjLNUrOf'
+    'trinity-analytics': {
+        channel: '1298718433084575847',
+        webhook: 'https://discord.com/api/webhooks/1456688789316436040/FVEzXsqXU7pshk0vgDjbZM4yN0lIs_ugV4JwlW3_eUPoC9rB8S1tASaVgjqAEUORgpDk'
     },
     
-    laformula: {
-        channel: '1433220283594047600',
-        webhook: 'https://discord.com/api/webhooks/1455929893388025897/wcsY_JHaDR2H_9Mi0YAdvMqufKoCY1lBIuXeowk2l2QtW4neJo3z5QXrZ_NqXRURx8N2'
+    'dk-dfs': {
+        channel: '1400014825907818578',
+        webhook: 'https://discord.com/api/webhooks/1456688843326619721/SOb7Q5LWoK5_etyi0Fi0jLasZAPlYcyBtSPw4lITNYkhqLYyEJSff4Vk-V3EHI8_sWjn'
     },
     
-    lsw: {
-        channel: '1433220284986429512',
-        webhook: 'https://discord.com/api/webhooks/1455929941039386899/1Z6rYHB1lRdcA5yRirVhaeHg8qEESHiGGUGzQb1aDM1rJSbNgFhiaWyGBvClaF2F6Apo'
+    'matthewp07': {
+        channel: '1193766477128544306',
+        webhook: 'https://discord.com/api/webhooks/1456688890709672069/A7ec-y3fAFXAdo8WzUlnu8eFKIP40mHRi0FmU38itxEsQZl5GSPJ_hHuuUbu5bvFLf6n'
     },
     
-    fivestar: {
-        channel: '1433220286953816064',
-        webhook: 'https://discord.com/api/webhooks/1455930004130238567/HWi5rw0Uhr9lmmwJHTema8QNe-cYed3yGu2Dc1S_7Dp2WU3fYQdhDwQZW8VTEJYIr8J_'
+    'hammeringhank': {
+        channel: '1426829632174297119',
+        webhook: 'https://discord.com/api/webhooks/1456688966253281290/tk95MPwuGz382yZku0TmxqvdOa2h20MSTxDUcdBmMQrKPRoMCrzXILQdn64h9iwNKQJq'
     },
     
-    ydc: {
-        channel: '1433220288270696600',
-        webhook: 'https://discord.com/api/webhooks/1455930047360798802/JKqbJfBycoVqcpYLIUeDWHFqWOeKsaX8WJkcaH68EN3nFeN1eRUY6rqLrq24W7cvgAjC'
+    'caleb-bets': {
+        channel: '1360392595632554064',
+        webhook: 'https://discord.com/api/webhooks/1456689013560840427/z_P4g0ts-COaiWB1Rht4Ah0TRoc4OHgkN-Jl0QRmO0x1kiqsANOcoi5mfiHfkVhKN3gh'
     },
     
-    sportsbetking: {
-        channel: '1433220289638039686',
-        webhook: 'https://discord.com/api/webhooks/1455930083574284389/ydGtXq4BBcKNuYIHO45t34HF98xrmaQH0_yTgV0ihIf_k1h3ubAxoflE2Z_4atN7E4Iq'
+    'chefbestbets': {
+        channel: '1275937013542944853',
+        webhook: 'https://discord.com/api/webhooks/1456689088856854631/kvRDA5fzQ6WvaC0czf1rqOK-HmpbyIPQWQZOzdO9PJANpKawJbzkegDgw7EwC7bypr-a'
     },
     
-    afs: {
-        channel: '1433220290917171292',
-        webhook: 'https://discord.com/api/webhooks/1455930155326504970/0CvHr8SXrBxLPiPpPKNfJvqF_b1irhQhG4CznsyULbuy-MWDG4xXDS0T_b33BRetZIH1'
+    'cushplayerprops': {
+        channel: '1275937155700756530',
+        webhook: 'https://discord.com/api/webhooks/1456689161762377840/NfmeNNyc6o4noanVkv_St6nSV_o8F7Nolsv5LCKLM9nfMc62qRbX0tDUfIkCA-wSuZ21'
     },
     
-    travy: {
-        channel: '1433220291936649227',
-        webhook: 'https://discord.com/api/webhooks/1455930204865429545/iLCy3_sA7j6ZsthFruG3QQuFT2PDNcwbPY9QeusE8f7_l7sRgR3D7rAuwy_d1aNYmInl'
+    'deadprespicks': {
+        channel: '1445473078283866242',
+        webhook: 'https://discord.com/api/webhooks/1456689216615354543/8gC_WW5-DgU8wpfnMMPmL7NZbas-1IYjaaLYcpKhNqrA8LDeQubEaVfFKU48D9AN1nrk'
     },
     
-    ab: {
-        channel: '1433220293392072828',
-        webhook: 'https://discord.com/api/webhooks/1455930248133607455/k9jXB1W76OQ8-1dQEBQC3Q8AmjBTrm5Fo5u47lrHI-TBKstO1tXnjw5wjfOnYKtTLSjj'
+    'dormroomdegen': {
+        channel: '1445473005840109598',
+        webhook: 'https://discord.com/api/webhooks/1456689272274026511/kZ-YoePA4i251yjfOHDmtsfORgw1YH3et0vnZ-hxZ9Aa-Rm72hNLEBgmsvBuhMYZh5xS'
     },
     
-    platinumlocks: {
-        channel: '1433220294826528930',
-        webhook: 'https://discord.com/api/webhooks/1455930301770629241/lYooMVnHZ-jYFVfjodqxO6tXafhUxUEbgWVyeVaUGtxTGaFzVkbRnX9evL5ZtjyhkWuc'
+    'justinbales-ncaa': {
+        channel: '1400014486290698260',
+        webhook: 'https://discord.com/api/webhooks/1456689377353797748/Pi1kovSSanrA5coSzLEQpYJK2uQmfY1Q0yk_u7mRgwQoJVDmf4axXhaZoDEAdSWtmvua'
     },
     
-    razzaqlocks: {
-        channel: '1433220295799607357',
-        webhook: 'https://discord.com/api/webhooks/1455930442820751586/Wpg186U_vrRa0WHKkpnIwpqf_93on3az-5V70sYI4HjGr09RS1NkT8ZWTh2U1UZT_4tT'
+    'ktown-soccer': {
+        channel: '1381173852725579796',
+        webhook: 'https://discord.com/api/webhooks/1456689444626108487/BTtzSzBbJD0ivmLSvH2VV7frrcytXW61QiAzop-T5XpI6o0mAgjh3jbUbIzdQFMRDUBZ'
     },
     
-    midwestmikesports: {
-        channel: '1433220296860762112',
-        webhook: 'https://discord.com/api/webhooks/1455930487758651566/4uxs1xh2AY7UP1zppIjb27VnSax7zwxoCN8zUl0gLHt2-A0dZMEOk4Eh7j8_9Xw6KOVd'
+    'lawdtp-tennis': {
+        channel: '1366647721771008020',
+        webhook: 'https://discord.com/api/webhooks/1456689690190286848/MjGUmAbrPUp3wSPb-AKhhQbAG2_YPaKYpa19aysZppnrqVT6AGkJhdD77yJIlwnqWdV1'
     },
     
-    chamba: {
-        channel: '1433220298655662210',
-        webhook: 'https://discord.com/api/webhooks/1455930651009089698/7yXUOMSY9H-Jx7XVSHJxYJdeJJpUKJ5SLlSu6OAHe44zQx9QbmIs00P5rKlpgJFdgR-L'
+    'lev-locks': {
+        channel: '1390591789550931978',
+        webhook: 'https://discord.com/api/webhooks/1456689746020405382/MskxfdRJbgQx9PBaZpQqo6p5q926xmFuG6fGFtZW8jSCSiQ28ykyCRXKou2ww6mOUOPE'
     },
     
-    vegascovers: {
-        channel: '1433220300035854515',
-        webhook: 'https://discord.com/api/webhooks/1455930790905905173/u4AmH2-3wWY26QCe1312mM8Xe7RYjxKq4N4dCyOsjHiuvRgzs6H1e2FUfwxEdM09810e'
+    'naz-easter': {
+        channel: '1205549097365282816',
+        webhook: 'https://discord.com/api/webhooks/1456689902824718530/N7yOojceZR5O4-TkMwvggXHP6cSOtfasmYuJo4RTkTQ7Jcl84YRraZOoKBl50QgjrfQC'
     },
     
-    a1: {
-        channel: '1433220301327437835',
-        webhook: 'https://discord.com/api/webhooks/1455930843984957491/3iQZWubIGXpry1O1YCfReUUrFym4J4QgjcuqR4dQEeyOTSrrmOP6_EKdJm0BuY5vM7xW'
+    'nickycashin': {
+        channel: '1445472910503444703',
+        webhook: 'https://discord.com/api/webhooks/1456689957434294493/DRJFgzM0wWefXyQFQTi5DSq8-UZGnT8Wchzh5_v257QPtzELPzDvpnT3yMtXIEHIboze'
     },
     
-    jacavalier: {
-        channel: '1433220302577340589',
-        webhook: 'https://discord.com/api/webhooks/1455930883088584817/eQ3nuGWCrZAJ_nGO_SwX_XD_q_NyZ_D5ZnkoeXkfWE3Zpv8xdnjJZ5cpnII_vxS2bX7y'
+    'razzaqlocks': {
+        channel: '1334972635179647027',
+        webhook: 'https://discord.com/api/webhooks/1456690120840188069/3-HIPYeK_WSVEbeRnBHiRCJE9Wkzb2Nd_cHVMyOr6N6eflFSfOrLRft1B4msE0BR-9fa'
     },
     
-    ronaldcabang: {
-        channel: '1433220304007594125',
-        webhook: 'https://discord.com/api/webhooks/1455930942932914220/3ZNmXVgwnreHUv_GIHiWxKqIX88BJh6klH-fhQ1VZELHmnorVDsycnlRagkfaI7HmyL-'
+    'secured-picks': {
+        channel: '1381174018240938015',
+        webhook: 'https://discord.com/api/webhooks/1456703549286387713/wcDaZ3cLj-NhSSS3xdb5G3qo7bTp3MHZU_1BELRjm9l5YNdeHEaydodbaK2cIntywwIL'
     },
     
-    ruso: {
-        channel: '1433220305278730250',
-        webhook: 'https://discord.com/api/webhooks/1455930980887167110/M3IMU7uoN3epOolXd_w05Ejyfo9ZUPM42XOabAupEDD_Ly8BWioJzLOGwNTIMXOehWoH'
+    'sriracha-dfs': {
+        channel: '1294095790502973563',
+        webhook: 'https://discord.com/api/webhooks/1456703858360451271/Lg7Hlr0cIjOUxMbFao42VGKIpGs-lNiNodAddsdaMC1YHjyX9cqKSKLSWzZXOTtvVLTf'
     },
     
-    falcontpk: {
-        channel: '1433220307220435045',
-        webhook: 'https://discord.com/api/webhooks/1455931030186754049/LS1bF6IfXILazoAlUmxv1aUHCfsuYRY2ZpNo74Z-XG5chxR6m28aBpdftapAH8g6K9dr'
+    'cheeselocks': {
+        channel: '1400014633116631040',
+        webhook: 'https://discord.com/api/webhooks/1456703938232455361/yhJtqk9OcFJPOZqVgJL-VlL7DmdmE--EcRxfmMFHadxsWiQrpbskUxknfHdEOTWPJLll'
     },
     
-    fmb: {
-        channel: '1433220309175111740',
-        webhook: 'https://discord.com/api/webhooks/1455931139171815467/gzO0W6Jye0GZZ795H8YUKXFAomgaZa54sH5xclKOahFN_oN5CflxzeFsdxXv3pCMg-7h'
+    'chillimanbets': {
+        channel: '1423912821552447539',
+        webhook: 'https://discord.com/api/webhooks/1456703988966621297/qlVE8c18uAraW6N8DNgeAqrz-168BhH-6dzcRr_X7q2XpAQdCtr38KQ1qDlK6TtPibUp'
     },
     
-    vonn5: {
-        channel: '1433220310580203691',
-        webhook: 'https://discord.com/api/webhooks/1455931186886086669/dlJh4N-D5rUFtL2UImN0pHLH_NZx1BDh9PvqprYbPPm3hZOIyEmoHR2QqW0-XUbkUV78'
+    'dee_rose901': {
+        channel: '1275937070145212488',
+        webhook: 'https://discordapp.com/api/webhooks/1456704110354104586/GiOESRO8PbV29dDU-Jw_4UKzieqQEnMMJPflIh4Y5If5mLEd4NAjyjaQ2FNYm9dgTVBd'
     },
     
-    kingcap: {
-        channel: '1433220312178229329',
-        webhook: 'https://discord.com/api/webhooks/1455931234407420107/R5fCVKhiqPGg8CUbyrXjP2fpkMTiLr38ACqyKKOJU5aRPtTT0PoVQ4OC9dXVv6JUOO-j'
+    'dfs-dojo': {
+        channel: '1420492945479569569',
+        webhook: 'https://discordapp.com/api/webhooks/1456704183540646050/ai-NYx5bc6TE6RtlyU1j_mO9syVhAS5sNx9iltq6daMI_B0mF8qE76352wbFyzcXq8zx'
     },
     
-    listrill2x: {
-        channel: '1433220319027658883',
-        webhook: 'https://discord.com/api/webhooks/1455931290896302091/DgI8TC0Oh2gZhHyZqHtQyUkE9lz6b6GAqXHK22DP9x8dcsg4SzYjM9HsgDzNTUQbuu2R'
+    'dresplaybook': {
+        channel: '1445472513567232071',
+        webhook: 'https://discordapp.com/api/webhooks/1456704268722639155/4oSVEIV5_YO_VgPywNtxqMxa7BLE8XxZVBueCbLsKQD3pfouKpK7UIhABbEIuW52wjGR'
     },
     
-    skinnybets: {
-        channel: '1433220320231428196',
-        webhook: 'https://discord.com/api/webhooks/1455931352699371632/MBYth_wxJ2xDz0RCL2jE8JX8rM-58IQjsKCoCNx1g5dZC1gHNUdc3qVMCx_THiSCPqUQ'
+    'ethbetz-nhl': {
+        channel: '1425961782727409664',
+        webhook: 'https://discordapp.com/api/webhooks/1456704343158952160/BCM20GKYruTEaP0eMtm5gCmUD4ULa3yo6ePxrJLWdOY7VSU4xxQ9PTKtxcaYW4S5dT1x'
     },
     
-    mazi: {
-        channel: '1433220321481326682',
-        webhook: 'https://discord.com/api/webhooks/1455931392897585328/XjOYR3UlJKwspxIpnoi0TsgmA2MCXcJ2RBf1H5jTyql9qBpIfiqCY-ec5gkE6bxc0ech'
+    'furnace-mlb-models': {
+        channel: '1359294671062306949',
+        webhook: 'https://discordapp.com/api/webhooks/1456704436889190452/P-J7U7PBuazabULIUlUKNJEiF17sE4Jv7gm9EJXUPnGsdiTKhgULSwGZ9mm8-uoHS-2b'
     },
     
-    seanperrywins: {
-        channel: '1433220327889960960',
-        webhook: 'https://discord.com/api/webhooks/1455931554411970601/4_E_E7TPoOSJU9Xnwvps2ee6F-lK3iEOpl6XhSt0u1iyMTRAqN7tFy_mr2o5uju_1OVY'
+    'goblinpicks': {
+        channel: '1366660643167404092',
+        webhook: 'https://discordapp.com/api/webhooks/1456704550529532059/rVzaE08uso2Nv9VSorCtJ_dZRVslFwC5KnIRogFZTcREiexHPNsQtFxU_IQf3OedYeEM'
     },
     
-    tms: {
-        channel: '1433220329458761748',
-        webhook: 'https://discord.com/api/webhooks/1455931624368771194/Gu579LZ2waypdHRS3GOsrYY_qffkKAeeUMXkDklgzJe98PA0p4ZBaymWkCCVobjGljvm'
+    'gonthebettor': {
+        channel: '1400014102796959784',
+        webhook: 'https://discordapp.com/api/webhooks/1456704667751813261/rO7n0Ry5fgQBKpybZpjvrajWrv7AzNtoIbcHDz2Bp4pCcpp__TbpaFM-EDe5urWK2FqW'
     },
     
-    dormroom: {
-        channel: '1433220330587029514',
-        webhook: 'https://discord.com/api/webhooks/1455931683747401862/hTCYIcNSyWl_sVo2Th8sdKk3BG731wpTadCGniB2xg4T9UjGlr4ZRgzgqbonIYcIpKwR'
+    'greeklocks': {
+        channel: '1275937244854751254',
+        webhook: 'https://discordapp.com/api/webhooks/1456704729621987487/CtHBOlK5cIJEc6mpZX8Gp1CiX1QoFrhk1nB1qvvaoIVe3z-xiHkaA0yT_tX-zEw5jI38'
     },
     
-    brandontheprofit: {
-        channel: '1433220269815758848',
-        webhook: 'https://discord.com/api/webhooks/1455931726034501736/X-tPBmZDZ3k2Yl55-w33K91uwUJltkVid6-ZEUwUnQ9ZMg7AdpNF5jqiMKbfUvbdFFOy'
+    'islandbets': {
+        channel: '1400015028232392834',
+        webhook: 'https://discordapp.com/api/webhooks/1456704924699070515/qC-m2uJtVP9SaDsfgRDdmCoS3uCIjJxw4bd8_9EFgNEeEMhsWeb4JJAXaQBrrZKFc4ln'
     },
     
-    patspicks: {
-        channel: '1433465894834536581',
-        webhook: 'https://discord.com/api/webhooks/1455931768166289479/8V561lf_qD04nJQHi_Cb9R6ijiuWWQVAAOdsO9jpdH0Cdd8uVP_cfMSUVcaiMdTCXmb6'
+    'jagsbets': {
+        channel: '1400025495084466177',
+        webhook: 'https://discordapp.com/api/webhooks/1456705067745935481/kgaF_L2NyMcS4Y-C1QVHY2oHVBS8ifpiXwKI9uJViIBK-MoSM8l4HfyfKXtRu_8o8bZN'
     },
     
-    pickzhub: {
-        channel: '1433220332227006604',
-        webhook: 'https://discord.com/api/webhooks/1455931837678358651/bZNRT30asjLVZxYRo-aI7_icAk4CCLEjCPd03zFmcpigSbaoz_gvWdNgdMHFoWRdq2Zq'
+    'knightlocks': {
+        channel: '1390572070064095377',
+        webhook: 'https://discordapp.com/api/webhooks/1456705017703698635/FMk7By3ooNBNPgOCoH4FNzDYOYS2ZQRsu9e6lxWun2sincLUMbEn_hdv83LUec0wSE_g'
     },
     
-    rickypickit: {
-        channel: '1433220333611258039',
-        webhook: 'https://discord.com/api/webhooks/1455931905571815572/3tj2LhWKjKyR2SuUcI5HCAA7tt3q6BnBVCREFwmK9fF8B6ccRwcIULhPaJV5uvz14SAf'
+    'kbo-models': {
+        channel: '1383307268006613023',
+        webhook: 'https://discordapp.com/api/webhooks/1456705133168820327/aRVNbI0a6GYeuxOy9uT3lM6KDdMIZjm-FCntfVV6XIX8wr8b9Xr4IMI63_jhcDVSaaxv'
     },
     
-    provenwinner: {
-        channel: '1433220323041611878',
-        webhook: 'https://discord.com/api/webhooks/1455931948760436860/rGY2M0AbmptFMsdSKiGSj-4kYAsVYCvf7BQrHLTQc0E-TrD7AeBGE-gL8EP0r-gH4jyp'
+    'mindofjakeup': {
+        channel: '1423915680494780447',
+        webhook: 'https://discordapp.com/api/webhooks/1456705234494558230/td_CIq3IfaWWrf6cEp5d6I9bnI71t9YUvzdNk-y5ftpFFXFBQo2cxxa3mEdzacTl10lt'
     },
     
-    bulliespicks: {
-        channel: '1433220325218324480',
-        webhook: 'https://discord.com/api/webhooks/1455931986865688687/io8NB_SHoMIbBPGGisuY7HZyvk3FJgSHc2E9pQktbZbdciN9OVbYN7G7DiXNuMgZcR0N'
+    'ndotdiab': {
+        channel: '1276792531262378064',
+        webhook: 'https://discordapp.com/api/webhooks/1456705319316095059/RDtpCxD97icJx3N8oIMiGWV0P5Gk3-ucMK-F2t7N-bBK0Iz27JneSbCUyEfAam0CFR4d'
     },
     
-    vegasmira: {
-        channel: '1433220334882132171',
-        webhook: 'https://discord.com/api/webhooks/1455932034542473388/7DA020X2t3BEUhbfB7d_vPjQg_HeBh-ntb1Cq8tVLbhVQ8r_1yUT8-vJ39fx56c1DejK'
+    'odds-juice': {
+        channel: '1352721050395217980',
+        webhook: 'https://discordapp.com/api/webhooks/1456705376421548204/fiP9Lt5kjT8JJAhGsgAKgogEzPIxuFg7Y9gbzfcZMBynR8X_MumTGViIwtGqfXTJfjdq'
     },
     
-    kleos: {
-        channel: '1433220326694850580',
-        webhook: 'https://discord.com/api/webhooks/1455932079253491988/c4915UoHB9XDP0K8ToRgquIFnD_S-FTtTQAnvA3hKVG7E6bcWc6CJrBq30tAaSVpZHaY'
+    'official-x': {
+        channel: '1423801142902652939',
+        webhook: 'https://discordapp.com/api/webhooks/1456705568021418117/6NXd_9gJVSEjEHeLlifDYDaREV0NKOFQzMjhA4AuoDzPJfN0lQFVrBLUyrhTzSozVo3a'
     },
     
-    stuntalot: {
-        channel: '1450090957260197888',
-        webhook: 'https://discord.com/api/webhooks/1455932117862191125/rp-IquAeSRBy73V_YzTGhP4Z_PsBizqlCLzt4ttMUaAdhcswxsQ3-RC6rYvZmI9bfpm_'
+    'prop-geek-zeke': {
+        channel: '1405285638101536788',
+        webhook: 'https://discordapp.com/api/webhooks/1456705704680362138/tOT_oaLvl72YFX3fz91GIvUJLKRSCZ9B3ypvp0FyUyNoQ252qgkT-u7G94p5Iypdf-yX'
     },
     
-    outoflinebets: {
-        channel: '1433220336333357076',
-        webhook: 'https://discord.com/api/webhooks/1455932357868650692/qJ46TU1VFVE5VF93tlcd1OzzoxTUS3qPsf5LSnncSKnBzBR-3QQoE6zuVvmktsbNkwaP'
+    'skohty': {
+        channel: '1400019884871778344',
+        webhook: 'https://discordapp.com/api/webhooks/1456705775790588230/0B3jZXUZ8u5bmspy9HskhpH1aa_DzIdBcpB-G7pVqUMio28v7PPl0RjNy9lCB2h4yfwe'
     },
     
-    returnofthebiga: {
-        channel: '1433220337734254693',
-        webhook: 'https://discord.com/api/webhooks/1455932396728881418/Y7mgDKOSMcydvWiZEPgulO8hcTGVRdd6mAMXWbVyQNSr614-JYoH72gkb83VlSrySo6D'
+    'stoshpicks': {
+        channel: '1351004359428931654',
+        webhook: 'https://discordapp.com/api/webhooks/1457428747358568449/m3rsBhWvKQKqDLoYSgg-nJ1tMFQ7vRMPWD8OtawT-YhXdUJPANT_FlYBDDTxKY0JIocE'
     },
     
-    'brandontheprofit-2': {
-        channel: '1433220338921111683',
-        webhook: 'https://discord.com/api/webhooks/1455932442127892564/BPJ3Ub69vry63bGBYcZg3PD1D3Hxq4m45PtmTo-lWVLi-Tbx_8KsIG6ruutdynBP3L98yea'
+    'vicelocks': {
+        channel: '1411342540027990197',
+        webhook: 'https://discordapp.com/api/webhooks/1456718758864228374/oPeDbNBbmNnNtddQ_erjJ5UuO70nhsFudp86heh9saK9SLNR41nU0iR8-FpLymIhg7LZ'
     },
     
-    analyticscapper: {
-        channel: '1433220340162498713',
-        webhook: 'https://discord.com/api/webhooks/1455941167949807627/tOlSfi3vsdr1tcDijIfw8iKhBSmux6LS0OO5kKO9uRRpCnFdysDDua4ygbCIBdmYlP0o'
+    'wizard-zeto': {
+        channel: '1307059938501328916',
+        webhook: 'https://discordapp.com/api/webhooks/1456718808759664650/S-TKesdAs98-zNkd556sUJBGD76Cm7_X3MBbRkVU6nvvEmVo4kOWwZB0LEdR9jUkg-D2'
     },
     
-    mojo: {
-        channel: '1433220341747941497',
-        webhook: 'https://discord.com/api/webhooks/1455941213935898624/88hbfqKQWlobA7CN9XUQPv6IIr11jrlhASYAgZBcgVUDmOMlR-vINSPqBnz2f4BOsukI'
+    'yun1manny': {
+        channel: '1415439802328678440',
+        webhook: 'https://discordapp.com/api/webhooks/1456718858613162174/WOwnkx_zjDRchGBa9fD183wNo-c5Sg33VpmIiOhKiszOWqVoaqyqOdT-22xLjA2qCCJp'
     },
     
-    blinkbets: {
-        channel: '1433220343153164441',
-        webhook: 'https://discord.com/api/webhooks/1455941318072205333/b7SLlf1MXSjEXGjTgiWKxf_lXTe5H-N3HfED_2xrmkJMHvRAYaVfZVTu31iNkdpnOXED'
+    'pickfinder': {
+        channel: '1455445295432339589678440',
+        webhook: 'https://discord.com/api/webhooks/1456718914766635232/minc5R8CGhOXZcKfUYT6b8PBf0kxEH6D_unUhKztHfxd7nuU_v4m4yqCnm7bsftl_qo5'
     },
     
-    matchpointbets: {
-        channel: '1433220344558387351',
-        webhook: 'https://discord.com/api/webhooks/1455941390776406329/ssLwjZpowRovOFQ1166k1XAvVUkyx6MaaWYoaL_UZGJ1oP3hejyLoyoM-LjPxHvWB5cl'
+    'angeloprops': {
+        channel: '1445472804228300883',
+        webhook: 'https://discordapp.com/api/webhooks/1456718958685196574/pt6biKtKzUkupeD2U6IuEgxegaIsuNJGlimxEBQKtsfbhbpoLdfRelhG8voRenNtXBQ8'
     },
     
-    thisgirlbetz: {
-        channel: '1433220345409831013',
-        webhook: 'https://discord.com/api/webhooks/1455941437525852323/g_v9tzzH51MVNz1xh_kPAmoWcrHeShtOFWtcksmrMl07HTA1FwDHwFLyP6bQ1JDo8dLo'
+    'bankdolo': {
+        channel: '1428460585502113792',
+        webhook: 'https://discordapp.com/api/webhooks/1456719014385549405/GeBsmZNo8ECZGJ9QU7S9_Fno9ShMVHLQClOaCgZ30lK6pSbMpuJkSFCHTnjA9QvwFHm5'
     },
     
-    learlcoks: {
-        channel: '1433220346915459112',
-        webhook: 'https://discord.com/api/webhooks/1455941478491885601/SY_jYSy4PZN4zq2ZBqOyQ3C66TQCWMZLvntsathqELZajOCMOHWpgaK9uB5OgPDCLmH4'
+    'coverkings': {
+        channel: '1412456151932735498',
+        webhook: 'https://discordapp.com/api/webhooks/1456719094047969402/wbsSBzEhit0qZ6cx5ZLw-5PlVKXM-W0bU0s2g-z03BL7ZLyaX43UWEun8ymUDCUdnAUE'
     },
     
-    ncsharp: {
-        channel: '1433220348257767474',
-        webhook: 'https://discord.com/api/webhooks/1455941963520933964/0r1sEk8MzIAZkSk454tKyauLA62OJbP8NlGAfbixPNKYWeMy2ULGWnzGAHTJMH3RgYff'
+    'cliffshredder': {
+        channel: '1288744122647052299',
+        webhook: 'https://discordapp.com/api/webhooks/1456719147961421875/blsVCclRDCajbzF3CaCxHNqG2o7hw8pOdM5wR82Ky0pB6lfUKclQU1Z93-gg-hJD_Qgg'
     },
     
-    p4d: {
-        channel: '1433220349268594860',
-        webhook: 'https://discord.com/api/webhooks/1455942020945285120/ur4zaL-rUM-qp3pYNdjJK044s1WIfrhuldBhM5HzKq5Z4dynAhgbmnLgmuOKmSo9eWMp'
+    'moshi-tennis': {
+        channel: '1366628285819388048',
+        webhook: 'https://discordapp.com/api/webhooks/1456719219751387136/Z5kJ-j9BkMLLBl4p8CAue-Q0KyM7NFSpZIiDIT6F2Fb8x0GjqnoHpA8KfNLWPFvtEwfJ'
     },
     
-    troywins: {
-        channel: '1433220350480744460',
-        webhook: 'https://discord.com/api/webhooks/1455944110736277787/3bU9IDmJXu1Q6XfdaHXk1CLz1O-PBQazC9Avmsy281pSE4DoQf6W2d9uWE40DrRpzVGk'
+    'racha-mods': {
+        channel: '1395127687026053230',
+        webhook: 'https://discordapp.com/api/webhooks/1456719259857064106/GRVogPzI_fGiI4XFFDanf6pg7vxhC-W0mH1uKEfQg8Efq1JGIG-amhOsCbljlF0xIzbo'
     },
     
-    hammeringhank: {
-        channel: '1433220351579394148',
-        webhook: 'https://discord.com/api/webhooks/1455944221390405885/NQPf92OPnOi6p_kDWQZ6_SQKtK_qgVYqLC6m4lr7wldM_RIdq1TnH9oj8BTsLrHUmNW-'
+    'ttc': {
+        channel: '1395127687026053230',
+        webhook: 'https://discordapp.com/api/webhooks/1456719302836224031/cNZgQ3QlQ6tizL2dKMi7ljJLKCb91bs0ogQ-1pCN35tGisqjMFmKOsqOLzBKqanAnRLw'
     },
     
-    sharp: {
-        channel: '1433220352640815114',
-        webhook: 'https://discord.com/api/webhooks/1455944271097102523/s5zEEx-kkVEErk0f3-C65xD3v_EOR5_jCFKKXQgGUVCzsmLEjtbTl9BNhwkrlljA_I3l'
+    'sneetch': {
+        channel: '1423915918924185722',
+        webhook: 'https://discordapp.com/api/webhooks/1456719349938262188/IOiWqQDfQ8yiHE9K4ggaEAuAnHhjA5aYDBEtMTekazD7j-cdp4qbr62lm5Y8Q2L5OUZx'
     },
     
-    vegasninja: {
-        channel: '1433220354209353760',
-        webhook: 'https://discord.com/api/webhooks/1455944635984642145/9p80ycNWaDaW1MkYXtDxpn1KsGeA5v2fSh4k4Y9bQGu5xmHxxYN__sgln5pclPAj-KEW'
+    'swift-nhl': {
+        channel: '1295615435298967673',
+        webhook: 'https://discordapp.com/api/webhooks/1456719389880483860/s5HUrnzC-WnwOQr2zMZU-vD4wuQfTuM-XQivnJst8LgbAajGVUZZbj1F3i1GmCV9nRDa'
     },
     
-    duck: {
-        channel: '1433220355228565504',
-        webhook: 'https://discord.com/api/webhooks/1455944689449697451/5Sg1u0112CLjE3P16YvO8iiocMGVxGli0DXOjIolbgSH8-g2vQrnIppbruCrO5GamzYq'
+    'vokey-pga': {
+        channel: '1366625719769366620',
+        webhook: 'https://discordapp.com/api/webhooks/1456719448621842433/tyo2oKJwPycSccILAPVNWZQksYB1w8oVd--TMwHzR7YTj9W0F9Tz7gZMEKu_cR6_roAp'
     },
     
-    'stat-ai': {
-        channel: '1436807451822391430',
-        webhook: 'https://discord.com/api/webhooks/1455944731887665242/2oEMfB721p37JkpDDkcL_pmIfIqO59c0kpyGWPv32enrKMW_EjJtHhW4-A-axOQj1n0c'
+    'xclusivepropz': {
+        channel: '1193771774106677359',
+        webhook: 'https://discordapp.com/api/webhooks/1456719669867188490/V-jZGQhSQkx_PDD2QHtfwOMTSvPE1jf0qn-AtPXarUasq3FCTdayUl5TT08oGAfnbyVw'
     },
     
-    nickycashin: {
-        channel: '1433220356646375477',
-        webhook: 'https://discord.com/api/webhooks/1455944767891443858/zfhAix7q5Z5yhL_gABGsngS5VmpdL2JpaZGJEanoYwk-3VXQbJ07gLhd9Eq8DNp-lhOJ'
+    'wyzebets': {
+        channel: '1445472623063597087',
+        webhook: 'https://discordapp.com/api/webhooks/1456719720156893398/bf43kODYrQbvr-XGnf6kdUFpeSKKiZh3VAQkmdY-pSaEHnbj9Ye8svzR6eqQZYoqrfal'
     },
     
-    codycoverspreads: {
-        channel: '1433220358273503272',
-        webhook: 'https://discord.com/api/webhooks/1455944823943987393/xb6YHrPfiBKp0uJQMhWbczBGOAhywIzxRns2yTsVxDGXUVkLx6fJ41WI1MW2pS8ASoFc'
+    'cs2-models': {
+        channel: '1207556015013236776',
+        webhook: 'https://discordapp.com/api/webhooks/1456719785692889130/wE3rj7qq5FhmJ2ZYk0YPttP6QtQ6JTOrkychZs67etebH8SL17260Ub3f7_qfe0fLSoq'
     },
     
-    dquanpicks: {
-        channel: '1433220359792099509',
-        webhook: 'https://discord.com/api/webhooks/1455944870001639475/QuRIo3rNSqOEKWrv1lDAzLsvCSWhKY-NHWw1B7GDZ4gPm9bteISgeVvzYpvQHAnj6N-d'
+    'lol-models': {
+        channel: '1276087639602364427',
+        webhook: 'https://discordapp.com/api/webhooks/1456719828026134643/xeGyEX7hw5iNCxrvPWqJwWzjPAFsjq-uXz8CVBQCINSNdWClgD5S5_wEYRR8IgSZRBv1'
     },
     
-    porterpicks: {
-        channel: '1433220360819441737',
-        webhook: 'https://discord.com/api/webhooks/1455944974217646132/ygD0ghD8J93ha46tXpT8J_Mzgw9jZtEjABYdRExIo92zyjwEljDhcxUz6AZ-5z0R1kHS'
+    'racha': {
+        channel: '1294096228212150332',
+        webhook: 'https://discordapp.com/api/webhooks/1456719870501720116/aerdCBujtsnUGMJJESgesi4ILC25DMg019xbsHWebfqU1CL5Io5bMWZIRuEiUFQ6pGDj'
     },
     
-    tbsportsbetting: {
-        channel: '1433220361494859808',
-        webhook: 'https://discord.com/api/webhooks/1455945016580116490/M-9fS5V1AbHpH26o2Mz-1_7Ua2b7y7g8TGgqZ0F7nAIQORnVmhR9-ol874pvk--SXwAA'
+    'hydro': {
+        channel: '1390535174277697556',
+        webhook: 'https://discordapp.com/api/webhooks/1456719912105148519/M8qC5dIuE4RCbEVVrHMi2vLBFvr_SexGNcvjxeTVXsuLmbnfHW8zGpw7zjXlGQtRhyhH'
     },
     
-    rbssportsplays: {
-        channel: '1433220363218718964',
-        webhook: 'https://discord.com/api/webhooks/1455945077166833734/O8k8Rj8HgmgGSsSnY4GDqtKc_V3j1YCkOJcKS4T5nGq9ctFi2Ag98stSJWrFKwo6HPo1'
+    'ttimeesports': {
+        channel: '1427899579369656394',
+        webhook: 'https://discordapp.com/api/webhooks/1456719963892220103/JoVFxbORQytTkJfvUYpNyiYYX4nJE_R1oFVhKApJUQOL790kFORbe92hMwNypJ3u-k9M'
     },
     
-    fredo: {
-        channel: '1433220364472815816',
-        webhook: 'https://discord.com/api/webhooks/1455945118560424150/wxaqQFdCJmit0VyB0H4DpK7aGHyGP3xhh6nGvGuHYzEXcE4uSKa7yjDSVZouv_bSffzV'
+    'cloud': {
+        channel: '1238966987061727412',
+        webhook: 'https://discordapp.com/api/webhooks/1456721887811076198/JmBGYZSGjSHflBZ8TZH-ivJ9efR7rbFbXhrTidcEnaxri9cHHgDr4SqWmkQVhBg1w-st'
     },
     
-    nrfiking: {
-        channel: '1433220365777375362',
-        webhook: 'https://discord.com/api/webhooks/1455945169294721064/5vu2T7jNX5JCyeUAC-HKA7ZwOFz6_GpD93Eji5KsiZKuc6BBOL1xK0n31b0abYXVRw4l'
+    'chipper': {
+        channel: '1246709883399569430',
+        webhook: 'https://discordapp.com/api/webhooks/1456721927551848656/BRMtlWi364W9lf4rjFgHD2M6Jgu_T6JbjXb2vgBh1a2aqiMmjQV839-ar6CLH4MgU9QW'
     },
     
-    pickstream: {
-        channel: '1433220366968295598',
-        webhook: 'https://discord.com/api/webhooks/1455945219840282848/SiZF2rWKLLW6P_9ObPpw52B617f945gxOUvMDi7E9NkD5cQfNznZks0E8qeCqccZWXNc'
+    'ultimatedfs': {
+        channel: '1440441022000660643',
+        webhook: 'https://discordapp.com/api/webhooks/1456721972087099550/6BVJ8pVmYC7o9b83oBj--Kls2gIKumLhXj01nD6-F17NdMhyEXOCcBIrJjbbeyJ2Fazz'
     },
     
-    zachsbets: {
-        channel: '1433220368348348437',
-        webhook: 'https://discord.com/api/webhooks/1455945263662366771/F-AyL0oNNermbVD_DbDH1vxMD_txmwuxuDId4HqABjPH-66TSwgUFonJOokj03b8zLqa'
+    'draft': {
+        channel: '1215707593503285258',
+        webhook: 'https://discordapp.com/api/webhooks/1456722033521070276/MQa1u5TeNDSIntZ3UNzLYzaVNxSfN0THBf-QNUqn63bHtWpCgt_FfZNpnya41k1wsSQm'
     },
     
-    beezowins: {
-        channel: '1441077037241471087',
-        webhook: 'https://discord.com/api/webhooks/1455945314933670019/QizyDKnoR249FJI7G8KHPJj8FbTzdY7EnBOH2pukBEwcuA6tQLGZ1UdJdWvV98x-zCvk'
+    'qlocks-dota': {
+        channel: '1390588863189356565',
+        webhook: 'https://discordapp.com/api/webhooks/1456726157394444462/S6LIYrgdsFYRH5evPtGlAq8mxgd3p669027-6Lj_eIGun1EoHZlDW2a5uAwc6pN99eA_'
     },
     
-    bet2survive: {
-        channel: '1450107743871434752',
-        webhook: 'https://discord.com/api/webhooks/1455945354167058544/coamAEml2gF53C8oXlyBDeVUHFcqvl2I7brQo5GBmthGbM_yN9QQZrEusbOXNxJiSwQX'
+    'racha-esportsmods': {
+        channel: '1366626195160039464',
+        webhook: 'https://discordapp.com/api/webhooks/1456726218916495391/DrRGtStkW6M739fOM40H7ZBcsBt6SeDs_TEaDaa-QZS_7wgPh0_Pjw6n04jbQyFG8zac'
     },
     
-    thecappercollective: {
-        channel: '1450110412975636560',
-        webhook: 'https://discord.com/api/webhooks/1455945391722856470/FZvKGuPyYihUqdAf1krBWz0E5iazmituwMe4-x9zk58PduVnANihj8xeR2rEio-q3Zhd'
+    'esports-others': {
+        channel: '1238228099653701663',
+        webhook: 'https://discordapp.com/api/webhooks/1456726279196774522/LfvYNI_fJzc1lPAE4B6cCHiScAEpnJlKDJo4aFhOcdtcSEKhhUhjY1F-fBxgXxR7J9bK'
     },
     
-    vezino_locks: {
-        channel: '1451916851155046502',
-        webhook: 'https://discord.com/api/webhooks/1455945439336726696/NPGFsGkhMFGlimUl6csxVW4RZWq3EIiUWwO9wXK-3LsJBAV88RPkqBfizSECzgISTrqR'
+    'hydro2': {
+        channel: '1339712943142469755',
+        webhook: 'https://discordapp.com/api/webhooks/1456733600425836610/K7M8-L-T0mpvpLXqbDbbekJRYq2xFrF_--SW6-Ru6f0fAZbNZigxlH5aXlOd4lqmnIGb'
     },
     
-    allbets: {
-        channel: '1452275892943589376',
-        webhook: 'https://discord.com/api/webhooks/1455945478641422629/R19EhEOJeqKvpXnhXSrk6zFhzuOSMwtR68kC3lKoH2llQSn1V8CWM8MFuo0Iu6spXEuc'
+    'rezerise-cod': {
+        channel: '1340084861674979379',
+        webhook: 'https://discordapp.com/api/webhooks/1456733644092608542/53yOOuqWW-rkAzL6zwaeRLMvkwvvTzKMfXZB52l2ykmEEU-LIoSF1LX_weIRvwgJX3U_'
     },
     
-    snewj: {
-        channel: '1438989591326490724',
-        webhook: 'https://discord.com/api/webhooks/1455946652379516999/5u7TaXlyL8escaj0w03MApbeS-nboAnHaQ2HijoE2yJC-iXTFcZeMO2mxuFSfFlohnKv'
+    'dreams-val': {
+        channel: '1390535994893140149',
+        webhook: 'https://discordapp.com/api/webhooks/1456733704813674721/6duplguYvOJDvCU97StnQc9iqZjf5qW_RXtmgkwre29NLMIojPEWwXEb66pwUokq8Lkd'
     },
     
-    'austin-props': {
-        channel: '1438241071959380100',
-        webhook: 'https://discord.com/api/webhooks/1455946692229857294/GpJurlTdMKuJUXGa8GliyZswJ7vYziKj1o4zlX9Knw7JditHpG0jG_X3JhFaqkOkA4HC'
+    'luci-cs2': {
+        channel: '1390536121028710442',
+        webhook: 'https://discordapp.com/api/webhooks/1456733757670297822/9rdx6C5dcxXRTLnH-5hFFi5t0pw0atiq664qgtaGbUA4q4SlwbnMjZvJN6QHyGxei-fi'
     },
     
-    'brandon-props': {
-        channel: '1438241355733143584',
-        webhook: 'https://discord.com/api/webhooks/1455946743458959547/la4vbdektxlH0-KvCEQLGS2IP03D60hlXT4UuVleuLRo3JFwVOrQKee7a32l5c7ppfXZ'
+    'gas-val': {
+        channel: '1390536192746983424',
+        webhook: 'https://discord.com/api/webhooks/1457440416671465533/j8etczOWMHynHXnt2QQjP8GiqgISDSeoWSCh0FnOy0qEeezhptJr9I97vGxvlx6Ajmi1'
     },
     
-    'stosh-picks': {
-        channel: '1436805823803293919',
-        webhook: 'https://discord.com/api/webhooks/1455946797263356059/Yz28WeYwv1VLSolJ0otnNRcP33jTQEO0p51kPbHxOByA3y-33Z_sFQE0zqWI2GxaEBBC'
+    'wizardzeto': {
+        channel: '1381149393264185385',
+        webhook: 'https://discordapp.com/api/webhooks/1456733922439463085/GtStFeXd55Z8bzFiFnhChTM94jOktpt4H0jYdC2w0BA16oMPGSQNdqWxEIs_Y-XqBqHr'
     },
     
-    parlaycapital: {
-        channel: '1436808448573575208',
-        webhook: 'https://discord.com/api/webhooks/1455946846823252030/BCMVdPcwzu4V0V91sAW94uh5Dv7WhwD1BDCiH1xBkE4n_NHXWtmg9icN9mDEb9vcpFz_'
+    'triage-zetomod': {
+        channel: '1307609104247947274',
+        webhook: 'https://discordapp.com/api/webhooks/1456733963014897717/2cP3ADzuyXd6QEpGsBlgIzucandhHSSGz-PXaOQkzKVzp-FaKdDhlUrqIHvbZXPInWAx'
     },
     
-    banesquad: {
-        channel: '1436806495017766992',
-        webhook: 'https://discord.com/api/webhooks/1455946896815292600/GNqQNZjx2s8ZUFH8Nn-QzZXbjDt3fzSE8kBLEFP-6SXJbB4MSCkuXubCObW8iR_4WLAn'
+    'wizz-zetomod': {
+        channel: '1307609134262124614',
+        webhook: 'https://discordapp.com/api/webhooks/1456734010175656090/-Asp86kHkldqv6I07Z94egLSKX-0wdcwq85x_ZUURt-jZhoNBmmWFE9WoAHhWb-tMgf1'
     },
     
-    'zeto-picks': {
-        channel: '1436806760727052429',
-        webhook: 'https://discord.com/api/webhooks/1455946942306848772/c7C0dGlRHlKy5G6GLvPkVRq00JD4cKiVJlBTd5xSS5-_Pdh15_wgTyLFY7MjAyrP1RmI'
+    'rizz-zetomod': {
+        channel: '1307609235647107124',
+        webhook: 'https://discordapp.com/api/webhooks/1456734074914738218/ryvgi4-X4O8P5Qp0AFLPxliIvoJlZ8btGaT6trvV1iPkpVL2a4CzbCmh98wnJgvPNaah'
     },
     
-    'skothy-picks': {
-        channel: '1436808929345802443',
-        webhook: 'https://discord.com/api/webhooks/1455946983695974542/yfJ5hDrEJdAxfGPPAGxQJVAjjibEvchd6w9lnPt6A5zmrSbo5p83p0L8gaIrx4q0-0Dz'
+    'chode-zetomod': {
+        channel: '1367763539392987248',
+        webhook: 'https://discordapp.com/api/webhooks/1456734119663763531/dCwtcMjCOv5z8T_sUBVk17OHJiY90KZ3IlLoHMocYJ2nJvzkUQbJ0y_hkI7s_V_jrQnn'
     },
     
-    deerose901: {
-        channel: '1440772094081241199',
-        webhook: 'https://discord.com/api/webhooks/1455947028763906212/vvBM7QEu_8ZOHMpL4fk-v5z1hoalGQsyBpTE-JMvbaPr6Js9d0OU5eiO69bV2_dcrNdS'
+    'ivan-zetomod': {
+        channel: '1374270381707366410',
+        webhook: 'https://discordapp.com/api/webhooks/1456734171220148328/4N36l3dm-YsUdhHQSQCwiwbkB09SMvSfkWZ_CscpUsw2vr1OwqoMtnddI15DberO68Sx'
     },
     
-    knights: {
-        channel: '1444863603751518350',
-        webhook: 'https://discord.com/api/webhooks/1455947070312677488/X3WAWkZwAydrtUe6epYMfj29qGDmguZ89fqwtYVGbND6Z-yvWH5tOBr_wI3M590O3YTl'
+    'wctspark-zetomod': {
+        channel: '1400023430769672275',
+        webhook: 'https://discordapp.com/api/webhooks/1456740381847716085/nk0S7lCL0Ert267kTWAslTPp_GBUdSFXnd8OpjDY--S3BNwUkFJsxWokKxTldg8kiIvf'
     },
     
-    mrhockey: {
-        channel: '1444937028281045125',
-        webhook: 'https://discord.com/api/webhooks/1455947120648388833/HVUFEZOw-szGTwPIjYBoiGGPP2ptAJhWD4W_vFu6R4wD2WsO3CbTjLL9K7i1Lg1nCmBe'
+    'frhuh-zetomod': {
+        channel: '1409684004566728724',
+        webhook: 'https://discordapp.com/api/webhooks/1456740447987695637/z6Vh-gwx9y755PLG4q8pXbYpVfiiq2TYbfnFumIq0DIob6uUoqLrY2MF54Qy7mfWReZs'
     },
     
-    matthewp07: {
-        channel: '1445241908271124490',
-        webhook: 'https://discord.com/api/webhooks/1455947170535440404/Q8R_tYpUxOsQ5rMDUPkNlAdwny-XAzfHSeHOgYLRGmgpYPEkThzS1_Ush7N7_67ZEnYw'
+    'trial-mods-zeto': {
+        channel: '1409773690090164274',
+        webhook: 'https://discordapp.com/api/webhooks/1456740496402681998/mC4HM3eyBQ68XSoDjspnlyTWORJjE27LxKLPDt-Sa82PJ3Rwjjg4DaSGWJifiPFOAwgg'
     },
     
-    koint: {
-        channel: '1445352216885071964',
-        webhook: 'https://discord.com/api/webhooks/1455947240312148030/PDoy454vIJrhNNKC-vRkUOGz7ghg3___-AYaagpzovA5xseyWCcu4QOwgoMH_6i952uy'
+    'trada-picks': {
+        channel: '1374069312998080684',
+        webhook: 'https://discordapp.com/api/webhooks/1456740555991154815/er4QQ0AnQHQJaRy32G6NapzuHUWNz_rBKXcTf_si0DHuMnjkbFA7uhDm63iBx1IfKyet'
     },
     
-    oddsjuice: {
-        channel: '1445984618288386050',
-        webhook: 'https://discord.com/api/webhooks/1455947292862447790/ARPLtjajH9voACpCN6lyn0-e8MDNpw43WjkZ-caW8U05pFFvgzue37HyPbSr4URi0dda'
+    'true-tradamod': {
+        channel: '1374133367401877624',
+        webhook: 'https://discordapp.com/api/webhooks/1456740607962906646/BLFGgLzM_sGxhwCH2IXM-Sfqq8iWFNgiuxEANqtpvJCcL-4lydRl4RndP0q4gCgVaaMn'
     },
     
-    heem: {
-        channel: '1446734368964870164',
-        webhook: 'https://discord.com/api/webhooks/1455947349074382880/34oMN3Om4OwH3sSSBsmLpICYZb3IK1lT-OiPVphJBTRvG-AHJIfHGbJ1zvI2ej9rMJz7'
+    'ant-tradamod': {
+        channel: '1374133432652922880',
+        webhook: 'https://discordapp.com/api/webhooks/1456740663621062798/hoXWXmvkrzM2ORaDtVrLTF3DBq0LTvSo3Yl7lvzjznFK3vjb_jUmd_quWS0H4tOGxDq8'
     },
     
-    nazeaster: {
-        channel: '1448160107899654205',
-        webhook: 'https://discord.com/api/webhooks/1455947392720306187/xkBSGdUF8WkrBNDZ_49wVHLrVJVIDhsx22coUywAQjia9UNfI_R07dfqp-aaDp9gjBOq'
+    'spiral-tradamod': {
+        channel: '1374133527867555950',
+        webhook: 'https://discordapp.com/api/webhooks/1456740729744392203/BkCucfaKMY566jtTlOziy2iJAysLdodA_Q6dqXCextmV40C12wnS4JqxXhCHhyTf5LZB'
     },
     
-    securetdys: {
-        channel: '1450113484284100730',
-        webhook: 'https://discord.com/api/webhooks/1455947440774451362/sBmUiOYHHyzsnjMfkegKF6MYYNQowvNiZXbdSZbT-YYf-cGvHxNBuh-qG5OVErOPnnqZ'
+    'maddex-tradamod': {
+        channel: '1374133580007215224',
+        webhook: 'https://discordapp.com/api/webhooks/1456740785486696601/4tfmoWhAqx20ocYSoSGmQeqp2vED1hNJFlwdmyTQUSAjVoBx05v4h0JB8-7g6ecwDCIl'
     },
     
-    levslocks: {
-        channel: '1451224414497669161',
-        webhook: 'https://discord.com/api/webhooks/1455947485343121572/9JKi-B7BEtnz8IG02t4oWiInw8I74IF6Tk4-Is7saOqWLmphu5Rq3zCPPxRyruL8mKcK'
+    'zzz-tradamod': {
+        channel: '1395125417324707871',
+        webhook: 'https://discordapp.com/api/webhooks/1456740843804164340/DJdzHlvIzZso4lRcpmdRkT6SIBdVCd-6p5P78PKCuvEtoYixrOP0jS4G62fRUeyu91on'
     },
     
-    a1fantasy: {
-        channel: '1452717516085526699',
-        webhook: 'https://discord.com/api/webhooks/1455947534957674528/sYEZ_gGEOzFj1z5XOXOC8k40cz25-Nt04tXVUunB8OC2rCWtX2mk4lw2B1ZjTYcuOw5h'
+    'pizza-tradamod': {
+        channel: '1395125473465598023',
+        webhook: 'https://discordapp.com/api/webhooks/1456740893112406038/ghIGRBy0-oRLnmEBfWS1QrBM8GczzrOEhHsSBStt4vyXblEACqAhGIogyxP7btLps6-s'
     },
     
-    angeloprops: {
-        channel: '1452720913857511455',
-        webhook: 'https://discord.com/api/webhooks/1455947568029765675/TroinEn7V4SSs0c2iHpxRNdDGLjPRZZaTnLNVfZb0Ceqi76TOdWGsnaS2C1-rzDB9eRX'
+    'furnace-slips': {
+        channel: '1303839051111071754',
+        webhook: 'https://discordapp.com/api/webhooks/1456740939266658568/PDHXwTwOYqh33TUX51hMJX5tDYjF3-rR4g5FtJHavRDKp5a-sFPt7I6DRJ3oKBzNAmc3'
     },
     
-    balessjustin: {
-        channel: '1452724326590845151',
-        webhook: 'https://discord.com/api/webhooks/1455947606512369858/fMTJSIV8JheJjQj0SldLIZBGWt7_JNAwu780tnqygX2Z0pQXr7kF1f8fPxjlKG-sPJA2'
+    'nba-models': {
+        channel: '1303839380057882667',
+        webhook: 'https://discordapp.com/api/webhooks/1456853891244232705/MtGRyu_jwjn69sS3JKFksp6CpAmr3e-YzQ1aqgSJ_cCygtzut4N3CVlMi9x87PPBdfm_'
+    },
+    
+    'nhl-models': {
+        channel: '1303839436634591232',
+        webhook: 'https://discordapp.com/api/webhooks/1456854054742524027/8QG3tAL3Ar5p5vqVp8GqjI_8wA4pGlSQkHVDqKLd70A_RameV53x1vhPVmhWl5JaeAhA'
+    },
+    
+    'nfl-models': {
+        channel: '1303839657855025242',
+        webhook: 'https://discordapp.com/api/webhooks/1456854112015618181/qv73mNq2acuvpqjs63P-C3tpvX7sbb8TFtVy1OXTbAsELeERZG5LP_RKTdY-9fbtRiTV'
+    },
+    
+    'ncaa-models': {
+        channel: '1304156447541559439',
+        webhook: 'https://discordapp.com/api/webhooks/1456854159117521057/YPtQAzEnLD9tpq6ymFXqE3Lo4RvEAWRPMUMRMbdqipy8OSnyIF0gRDTQJ7AFhh9bC5jL'
+    },
+    
+    'mlb-models': {
+        channel: '1303839698472665108',
+        webhook: 'https://discordapp.com/api/webhooks/1457425692491780116/qv7MdRudHub5Ty5-7AophKvCJL0IgYBxYwLfNEv-LOcbzKG54uW6_o4rFXK_eJ_glKoK'
+    },
+    
+    'wnba-models': {
+        channel: '1352716804727767141',
+        webhook: 'https://discordapp.com/api/webhooks/1456854207243092030/-30UWFSVFbrB1LdcT7bZxJqp6IkEIaaEnrc957Er1EW3hDoX9iGCFXMFiix4W7wk3vmp'
+    },
+    
+    'free-leaks': {
+        channel: '1259695892257308763',
+        webhook: 'https://discordapp.com/api/webhooks/1456854304395628705/TlShmklTnX7DbvIoNWMz9nKPT431heIuklnTgjHMh_eaih-JwOUQCdPyowAE_UdANOZW'
+    },
+    
+    'weezyprops': {
+        channel: '1360396967670452396',
+        webhook: 'https://discordapp.com/api/webhooks/1456854356916830289/IdkobPbJJNLKKGdtR-GWKvmpKDYHI2K8DORpeyfItT1hPQy5csSPLFOeQK5ibwjZI95X'
+    },
+    
+    'zoldyck': {
+        channel: '1360394096102867144',
+        webhook: 'https://discordapp.com/api/webhooks/1456854419286261812/NdTfihLISIHJboxEc-rYfffCmO2Sf-IEYm0MYrheMTCe8F-YYmsz1mDI6fy5B87NsSBX'
+    },
+    
+    'camsoicy': {
+        channel: '1304156637216379012',
+        webhook: 'https://discordapp.com/api/webhooks/1456854473153581232/t8NNr7XaZ2u3eK4PHCKG2EHGM7B1nmokBR3FpcXxEwaf8iXAYUq0sXVJ4APqwYuyqWt2'
+    },
+    
+    'alexcaruso': {
+        channel: '1214596556301271121',
+        webhook: 'https://discordapp.com/api/webhooks/1456854632826404864/sfDrfCku2kuXResuCM_cDukcDnZeTDLHbU3pUnMgBFHkFdd86XUUMhRGuC4i16kNQW9t'
+    },
+    
+    'austinprops': {
+        channel: '1302167790140260393',
+        webhook: 'https://discordapp.com/api/webhooks/1456854695397167286/RVPK4zhvizqOQZf_KgssK7GFvRD3wxDYDCmOtMapuJNPlHR-l6fRFyXW_ZTIxoz3Nu-3'
+    },
+    
+    'fadegod': {
+        channel: '1243297002624647251',
+        webhook: 'https://discordapp.com/api/webhooks/1456854908174078107/buvu5vzI-Zd3NDU6SxDYdRRbv6_4Q1EMjuwe4R_XeA4W2dBqqVyvm4huhLndjAIG4QUD'
+    },
+    
+    'prizepicks': {
+        channel: '1276319611012386858',
+        webhook: 'https://discordapp.com/api/webhooks/1456854955259334656/ONnX1jJHAAHAgWLK3w87mLOKGVMfPeZtPBEIuH_4Y8_SQUC1XuyY3g8Y0gIy_ZEoHvNk'
+    },
+    
+    'underdog': {
+        channel: '1276321333818691706',
+        webhook: 'https://discordapp.com/api/webhooks/1456855797551337495/aaR2-9cq7xJMMWpaIWk6e0aSUg5n5l-OPwcnIpa-t5ZdlWDbsbzVbNQB6WA72C7KEy8e'
+    },
+    
+    'nba-updates': {
+        channel: '1237464328798732358',
+        webhook: 'https://discordapp.com/api/webhooks/1456855868871016448/EsLrKwWrWA-P4JPFOUmihonq4oR1xUyqszCHP_xM-THYd9K_HZK4lHORFcEc6kQQKqRl'
+    },
+    
+    'wnba-updates': {
+        channel: '1237896640485003376',
+        webhook: 'https://discordapp.com/api/webhooks/1456855918619656345/CSdzMqDvngRW2fVKvT9F9if1kYjqaCPHwS8mttf_1aw_1iNmo2YcbU8RwDpkKOMkeWbp'
+    },
+    
+    'nfl-updates': {
+        channel: '1237464993214234707',
+        webhook: 'https://discordapp.com/api/webhooks/1456855993303433319/hp4QeispOfklphPKC6UYTF9nTEgmzRf1HVIdPGWtK-yZPryaIdoEhoIJImbewdb_MmWj'
     }
 };
 
@@ -747,11 +832,10 @@ client.on('debug', () => {});
 process.on('unhandledRejection', () => {});
 
 // Login
-const TOKEN = "MjExOTg4MzgxMjg5MjgzNTg1.GAFRTJ.UmtaGiRrNeCdvdK6jVcs_qYfHlH1yf-0K4e7_s";
+const TOKEN = "MTAzOTM5ODEwNzM1MzQ1MjU3NA.GW69Ky.x874MCxAkO-D_TgllIJct3c17T2iZMHswup5FQ";
 
 client.login(TOKEN)
     .catch(() => {
         console.log('❌ Login failed');
         process.exit(1);
     });
-
